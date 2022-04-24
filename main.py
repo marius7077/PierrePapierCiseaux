@@ -46,7 +46,7 @@ def tour_selection():
             print(f'{tour} n\'est pas un nombre')
 
 
-# Boucler les tour
+# Boucler les tours
 def boucle_tour():
     for i in range(int(tour)):
         print('____________________________')

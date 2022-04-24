@@ -9,15 +9,12 @@ def _input():
     print('1 pour Pierre')
     print('2 pour Papier')
     print('3 pour Ciseaux')
-    r = True
-    while r:
+    while True:
         e = input('Choisissez entre Pierre, Papier ou Ciseaux :')
         if e not in choice_list:
             print("Vous devez choisir un nombre entre 1 et 3")
         else:
-            r = False
-    else:
-        return choice_list[e]
+            return choice_list[e]
 
 
 # Vérifier le résultat du match
